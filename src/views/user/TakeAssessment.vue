@@ -47,7 +47,7 @@
 import Sidebar from '@/components/Sidebar.vue';
 
 export default {
-  name: 'Dashboard',
+  name: 'TakeAssessment',
   components: {
     Sidebar,
   },
