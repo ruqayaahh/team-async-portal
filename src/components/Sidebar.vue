@@ -7,7 +7,7 @@
             class="mb-2"></b-img>
             <div class="text-white">
                 <p>
-                   <span class="font-weight-bold">Jane doe</span><br>
+                   <span class="font-weight-bold">Jane Doe</span><br>
                 <i>doe@enyata.com</i>
                 </p>
             </div>

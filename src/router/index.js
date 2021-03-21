@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import ApplicationForm from '@/views/ApplicationForm.vue';
+import Dashboard from '../views/user/Dashboard.vue';
 import Home from '../views/Home.vue';
 
 Vue.use(VueRouter);
@@ -23,6 +24,11 @@ const routes = [
     path: '/application',
     name: 'ApplicationForm',
     component: ApplicationForm,
+  },
+  {
+    path: '/user/dashboard',
+    name: 'Dashboard',
+    component: Dashboard,
   },
 ];
 
