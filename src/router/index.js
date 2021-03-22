@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import ApplicationForm from '@/views/ApplicationForm.vue';
+import Dashboard from '../views/user/Dashboard.vue';
 import TakeAssessment from '../views/user/TakeAssessment.vue';
 import Questions from '../views/user/Questions.vue';
 import SuccessPage from '../views/user/SuccessPage.vue';
@@ -26,6 +27,11 @@ const routes = [
     path: '/application',
     name: 'ApplicationForm',
     component: ApplicationForm,
+  },
+  {
+    path: '/user/dashboard',
+    name: 'Dashboard',
+    component: Dashboard,
   },
   {
     path: '/user/assessment',
