@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import ApplicationForm from '@/views/ApplicationForm.vue';
 import TakeAssessment from '../views/user/TakeAssessment.vue';
+import Questions from '../views/user/Questions.vue';
 import SuccessPage from '../views/user/SuccessPage.vue';
 import Home from '../views/Home.vue';
 
@@ -35,6 +36,11 @@ const routes = [
     path: '/user/success',
     name: 'SuccessPage',
     component: SuccessPage,
+  },
+  {
+    path: '/user/questions',
+    name: 'Questions',
+    component: Questions,
   },
 ];
 
